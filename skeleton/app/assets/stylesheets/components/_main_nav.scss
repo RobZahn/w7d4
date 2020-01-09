@@ -1,34 +1,50 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  align-items: center;
+  border-bottom: 1px solid $light-gray;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  align-items: center;
 }
 
 .left-nav > ul > li {
-
+  font-family: sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 1s ease-out;
+  cursor: default;
+  margin: 3px;
 }
 
-.right-nav > ul > li {
 
+.right-nav > ul > li { 
+  margin: 2px;
 }
 
 .right-nav > ul > li:last-of-type {
-
+  padding: 7px;
+  border-radius: 5px;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  background-color: $light-gray;
 }
 
 .left-nav span {
-
+  padding-left: 12px;
+  // text-align: justify;
 }
 
 
 .right-nav i {
-
+  font-size: 16px;
 }
