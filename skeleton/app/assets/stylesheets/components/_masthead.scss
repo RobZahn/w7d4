@@ -58,7 +58,8 @@
 }
 
 .masthead-links button:hover {
-	background-color: $lightest-gray;
+	color: $gray;
+	transition: all 1s ease-out;
 }
 
 .language-nav a:hover {
@@ -72,14 +73,23 @@
 	margin-right: 10px;
 }
 
+.masthead-links a:hover{
+	text-decoration: underline;
+}
+
 .masthead-links i {
 	margin-right: 5px;
 }
 
 .masthead-links strong {
 	color: green;
+	font-weight: 500;
 }
 
 .masthead-links :last-child {
 	border-right: none;
 }
+
+// .masthead-links li > span {
+// 	color: green;
+// }

@@ -1,0 +1,27 @@
+.sections-nav {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin: 12px, auto;
+    border-bottom: 1px solid $light-gray;
+}
+
+.sections-nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 730px;
+    
+}
+
+.sections-nav a {
+  font-family: $sans-serif; //WHY DO WE NEED DOLLA SIGNS?
+}
+
+.sections-nav a:hover {
+    background-color: $light-gray;
+    transition: all 1s ease-out;
+}
+
+.sections-nav li:last-child:hover {
+    text-decoration: underline;
+}
